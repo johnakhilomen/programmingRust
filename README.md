@@ -31,3 +31,18 @@ publish a library to crates.io with
 ```
 cargo publish
 ```
+
+### Create new rust project
+```
+cargo new hello-rust
+```
+
+This will generate a new directory called hello-rust with the following files:
+
+hello-rust
+|- Cargo.toml
+|- src
+  |- main.rs
+Cargo.toml is the manifest file for Rust. It’s where you keep metadata for your project, as well as dependencies.
+
+src/main.rs is the entry point for your application code.
